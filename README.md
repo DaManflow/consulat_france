@@ -1,6 +1,6 @@
-# Sujet du projet
+# Projet : Un nouveau site pour le consulat de la France
 
-## Refaire le site du consulat du pays d’origine (ou d’un autre pays)
+## Objectif : Refaire le site du consulat du pays d’origine (ou d’un autre pays)
 
 Le pays peut-être une région officiellement, mais dans le projet, on peut faire comme si c’est un pays (Ex: Guadeloupe).
 
@@ -13,15 +13,14 @@ Le pays peut-être une région officiellement, mais dans le projet, on peut fair
 * 1 document conception technique   
   * tests unitaires  
   * règles de développement  
-  * outils choisis et justifier leur choix  
-* Ce n’est pas un document : le site doit être responsive (zoom, dézoom, version tablette, version mobile, etc.)  
-* Ce n’est pas un document : s’assurer que le développement respecte les règles de développement  
-* Ce n’est pas un document : réaliser les tests de la partie Test (pas les tests de dev, mais les tests IHM), remonter les anomalies   
-* Aspects bonus : sécurisation, CI-CD, accessibilité
+  * outils choisis et justifier leur choix
+* Le code source du projet  
+  * Ce n’est pas un document : le site doit être responsive (zoom, dézoom, version tablette, version mobile, etc.)  
+  * Ce n’est pas un document : s’assurer que le développement respecte les règles de développement  
+  * Ce n’est pas un document : réaliser les tests de la partie Test (pas les tests de dev, mais les tests IHM), remonter les anomalies   
+  * Aspects bonus : sécurisation, CI-CD, accessibilité
 
-# 
-
-# Pages :
+# Pages demandées :
 
 * Présentation du pays  
   * Langue  
@@ -34,7 +33,7 @@ Le pays peut-être une région officiellement, mais dans le projet, on peut fair
   * Conflits actuels  
   * Photos, vidéos  
   * etc.  
-* **Demande de VISAS (PARTIE PRINCIPALE DU SITE)**  
+* **Demande de VISAS (Partie Principale du site)**  
   * on peut demander autant de visa qu’on veut (pas simultanément, c’est-à-dire après la réponse d’une demande de vision), ajouter l’horodatage de la demande dans le nom du pdf  
   * Paiement du VISA en CB :  
     * vérification du numéro de CB (nombre de chiffres, disposition des chiffres, etc.)  
