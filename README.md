@@ -1,4 +1,4 @@
-# Projet : Un nouveau site pour le consulat de la France
+# Un nouveau site pour le consulat de France
 
 ## Objectif : Refaire le site du consulat du pays d’origine (ou d’un autre pays)
 
