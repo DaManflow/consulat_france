@@ -1,0 +1,61 @@
+Tables :
+========
+
+personne : 
+    * id_personne
+    * est_admin
+    * nom
+    * prenom
+    * email
+    * mdp
+    * a_carte_verte
+
+demande_de_visa : 
+    * id_demande_de_visa
+    * id_personne
+    * date_demande_de_visa
+    * id_nationalite
+    * depart_voyage
+    * retour_voyage
+    * objet_voyage
+    * photo_identite
+    * est_terminee
+    * pdf_demande_de_visa
+
+passeport : 
+    * id_passeport
+    * id_personne
+    * n°passeport
+    * date_creation_passeport
+    * date_validite_passeport
+    * photocopie_passeport
+
+nationalite : 
+    * id_nationalite
+    * nom_pays
+    * est_autorise
+
+visa :
+    * id_personne
+    * id_visa 
+    * pdf_du_visa
+    * pdf_refus_visa
+
+demande_de_contact :
+    * id_demande_de_contact
+    * date_demande_de_contact
+    * email
+    * id_motif1
+    * id_motif2
+    * id_motif3
+    * description_detaillee
+
+loterie :
+    * id_loterie
+    * date_loterie
+    * nb_personnes_tirees
+
+motif :
+    * id_motif
+    * motif
+    * est_valide

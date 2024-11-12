@@ -1,0 +1,204 @@
+/* styles.css */
+
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Section générale */
+body {
+    background: linear-gradient(to bottom, #a8d3ff, #e0e0e0);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin:0;
+}
+
+/* En-tête */
+header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 1.5em;
+    color: #333333;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+.header-icons a{
+    text-decoration: none;
+}
+
+.icon {
+    font-size: 1.5em;
+}
+
+/* Section accueil */
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block; /* Évite les marges indésirables autour de l'image */
+    margin: 0;
+    padding: 0;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item img {
+    width: 80px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.service-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333333;
+}
+
+.service-item a{
+    text-decoration: none;
+}
+/* Section de connexion/inscription */
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    flex-grow: 1; /* Cette propriété permet à la section de connexion de prendre l'espace disponible */
+}
+
+.login-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    color: #333333;
+    width: 60%;
+    max-width: 90%;
+    text-align:center;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 60%;
+    max-width: 90%;
+}
+
+.login-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #e4e4e4;
+    color: #003f7d;
+}
+
+.login-form input::placeholder{
+    color: #333333;
+}
+
+.login-form a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #0073e6;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.login-form button {
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.login-form button:hover {
+    background-color: #005bb5;
+}
+
+button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: auto; /* Positionne le pied de page en bas */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
