@@ -1,7 +1,10 @@
 <?php
+
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 //Pour avoir les fonctions php utiles
 require_once "utils/functions.php";
-require_once "models/model.php";
+require_once "models/Model.php";
 require_once "controllers/Controller.php";
 
 $controllers = ["home"]; //Liste des contrôleurs
